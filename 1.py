@@ -94,7 +94,7 @@ def predict(model,image):
 
     
 def main():
-    image = Image.open("Foodimg2Ing/data/food_header.jpg").resize((680, 150))
+    image = Image.open("Food_header.jpg").resize((680, 150))
     st.image(image)
     st.markdown('<div style="text-align: center;"><h1>PIC\'N BASKET</h1><div>',unsafe_allow_html=True)
     st.text("")
@@ -118,7 +118,7 @@ def main():
         st.markdown('<div style="text-align: center;">Kriti(Co19335)<br>Karan(Co19332)<div>',unsafe_allow_html=True)
         st.markdown('<div style="text-align: center;"><i>Chandigarh College of Engineering & Technology</i><br><br><div>',unsafe_allow_html=True)        
         col1, col2, col3 = st.columns([1,3,1])
-        image = Image.open("Foodimg2Ing/data/logo.png").resize((200, 90))
+        image = Image.open("logo.png").resize((200, 90))
         with col1:
             st.write('')
         with col2:
